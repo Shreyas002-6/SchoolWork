@@ -1,0 +1,9 @@
+#include <stdio.h>
+#define square(n) (n * n)
+int main()
+{
+int n1 = 10, squareof;
+squareof = square(n1);
+printf("Square of the number is: %d", squareof);
+return 0;
+}
